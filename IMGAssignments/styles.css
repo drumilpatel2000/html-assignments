@@ -1,0 +1,386 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Kaushan Script', cursive;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#img1{
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hamburger{
+    align-self: center;
+    display: none;
+}
+
+#main>a{
+    color: #217170;
+}
+
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+#shopping{
+    align-self: flex-end;
+    color: #217170;
+}
+
+#navbar{
+    align-self: center;
+    position: fixed;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+    top:0;
+    background-color: white;
+    z-index: 100;
+}
+
+#nav-links{
+
+
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    min-width: 800px;
+    width: auto;
+}
+
+a{
+    color: black;
+    
+}
+
+
+#Title{
+    
+    min-width: 181px;
+    width: auto;
+    align-self: center;
+    height:120px;
+}
+
+#sec1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+#contents>h1{
+    color: #217170;
+}
+
+#sec1>div{
+    margin: 12.5%;
+
+}
+
+.description>.title{
+    color:#217170;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+}
+
+#sec1>div>button{
+    width: 150px;
+
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+
+    border: 2px solid white;
+    background-color:#ffffff00;
+
+}
+#sec1>div>button:hover{
+
+    animation-name:onHover;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+
+}
+
+.contents>h1{
+    color: #217170;
+}
+
+.contents>a{
+    color: #217170;
+}
+
+#sec2{
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+
+}
+
+.content{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+}
+.person{
+    display:flex;
+    align-items: center;
+    align-self: flex-start;
+    width: 50%;
+    justify-content: space-around;
+}
+.status{
+    width: 200px;
+}
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-heart-o{
+    color:red;
+}
+
+.posts{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    flex-direction: column;
+    padding: 50px;
+    display: flex;
+    width: 200px;
+    background-color: #fff;
+}
+.postimage{
+    width: 300px;
+    height:100%;
+}
+.profile{
+    margin:30px;
+    width:300px;
+    min-height: 850px;
+
+    background-color: white;
+}
+
+#profilePic{
+
+    height:440px;
+    width:300px;
+}
+
+.contents{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.sec3Post:hover{
+    filter: grayscale(50%);
+}
+
+#links{
+    width:300px;
+    height:410px;
+    background-image: url("assets/assets/alcohol-alcoholic-aromatic-914241.jpg");
+    background-size:300px 410px;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+#KetoPlans{
+    background: #fff;
+    position: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#KetoPlans>h1{
+    color: #217170;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#KetoPlans>a{
+    color: #217170;
+}
+
+#subscribe{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    background-color:#217170;
+}
+
+#profilelinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#subscribeform>form{
+    background: #fff;
+    margin: 30px;
+    padding: 30px ;
+    display: flex;
+    color: #217170;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+#subscribeform>form>input[type="submit"]{
+    background-color: #217170;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#subscribeform>form>input[type="email"]{
+    border: 2px solid #217170;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+#sec3{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    overflow: hidden;
+    color: #217170;
+}
+
+.sec3Post{
+
+background-image:url("assets/assets/apricot-background-berry-1028599.jpg");
+background-size:300px 350px;
+width: 300px;
+height:350px;
+margin: 0 15px 0 15px
+}
+
+#sec4{
+    background-color: #eee;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    color: #217170;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding: 50px 0 50px 0;
+}
+#endSubscribe>input[type="submit"]{
+    background-color: #217170;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#endSubscribe>input[type="email"]{
+    border: 2px solid #217170;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.imgcontainer{
+    display:grid;
+    width: 100%;
+    margin:15px ;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-row-gap:20px; 
+    
+    justify-content:space-evenly;
+}
+
+#footer{
+  background-color: #217170;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+
+}
+
+@keyframes onHover{
+    100%{
+        background-color: #fff;
+        color:#217170;
+    }
+}
+
+@media (max-width:1374px){
+    #sec2{
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+
+    }
+    .hamburger{
+        display: block;
+    }
+    .container{
+        display: none;
+    }
+
+    .imgcontainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,350px);
+    }
+
+}
